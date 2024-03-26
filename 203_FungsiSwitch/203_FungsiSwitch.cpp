@@ -69,10 +69,11 @@ int main()
             inputData();
             cout << "hasil pembagian =" << pembagian (bilangan1, bilangan2) << endl;
             break;
-
+        case 5:
+            break;
         }
 
-    } while (!=5
+    } 
     
 }
 
