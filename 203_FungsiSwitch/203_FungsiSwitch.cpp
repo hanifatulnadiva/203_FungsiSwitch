@@ -37,6 +37,7 @@ float pembagian(int a, int b)
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int pilihan;
+
 }
 
