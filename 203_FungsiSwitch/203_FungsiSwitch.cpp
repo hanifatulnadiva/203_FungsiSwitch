@@ -51,6 +51,14 @@ int main()
         cout << "masukan menu pulihan :";
         cin >> pilihan;
 
+        switch (pilihan)
+            case 1:
+                inputData();
+                cout << "hasil penjumlahan =" << penjumlahan(bilangan1, bilangan2) << endl;
+                break;
+           
+
+
     }
     
 }
