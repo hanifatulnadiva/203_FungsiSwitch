@@ -52,14 +52,18 @@ int main()
         cin >> pilihan;
 
         switch (pilihan)
-            case 1:
-                inputData();
-                cout << "hasil penjumlahan =" << penjumlahan(bilangan1, bilangan2) << endl;
-                break;
-           
+        {
+        case 1:
+            inputData();
+            cout << "hasil penjumlahan =" << penjumlahan(bilangan1, bilangan2) << endl;
+            break;
+        case 2:
+            inputData();
+            cout << "hasil pengurangan =" << pengurangan(bilangan1, bilangan2) << endl;
+            break;
+        }
 
-
-    }
+    } while (!= 5);
     
 }
 
