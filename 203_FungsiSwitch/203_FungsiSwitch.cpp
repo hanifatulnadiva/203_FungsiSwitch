@@ -61,9 +61,14 @@ int main()
             inputData();
             cout << "hasil pengurangan =" << pengurangan(bilangan1, bilangan2) << endl;
             break;
+        case 3:
+            inputData();
+            cout << "hasil perkalian =" << perkalian (bilangan1, bilangan2) << endl;
+            break;
+
         }
 
-    } while (!= 5);
+    } while (!=5
     
 }
 
