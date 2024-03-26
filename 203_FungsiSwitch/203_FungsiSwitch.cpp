@@ -65,6 +65,10 @@ int main()
             inputData();
             cout << "hasil perkalian =" << perkalian (bilangan1, bilangan2) << endl;
             break;
+        case 4:
+            inputData();
+            cout << "hasil pembagian =" << pembagian (bilangan1, bilangan2) << endl;
+            break;
 
         }
 
