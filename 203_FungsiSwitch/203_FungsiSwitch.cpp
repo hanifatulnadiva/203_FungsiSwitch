@@ -38,6 +38,20 @@ float pembagian(int a, int b)
 int main()
 {
     int pilihan;
+    do
+    {
+        cout << "kalkulator sederhana " << endl;
+        cout << "=====================" << endl;
+        cout << "1. penjumlahan" << endl;
+        cout << "2. pengurangan" << endl;
+        cout << "3. perkalian" << endl;
+        cout << "4. pembagian" << endl;
+        cout << "5. keluar" << endl;
+        cout << "=====================" << endl;
+        cout << "masukan menu pulihan :";
+        cin >> pilihan;
 
+    }
+    
 }
 
